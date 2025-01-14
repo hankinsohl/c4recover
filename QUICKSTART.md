@@ -38,7 +38,7 @@ Once the configuration file has been updated you can run c4recover from a comman
 the following command:
 
 ```
-c4recover c4recover <save-name>.CivBeyondSwordSave
+c4recover <save-name>.CivBeyondSwordSave
 ```
 c4recover will remove LMA from the save and will write the modified save to 
 recovered_<save-name>.CivBeyondSwordSave.
