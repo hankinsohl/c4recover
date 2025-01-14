@@ -62,6 +62,9 @@ fabric.properties
 *.bak
 *.info
 
+# Version control files to exclude
+vcs.xml
+
 # Exe data and output
 src/data/
 src/out/

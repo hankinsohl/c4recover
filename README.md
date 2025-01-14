@@ -11,15 +11,9 @@ your computer do not match that of the save, the game might not behave properly.
 it is best to change assets on your computer to match the save if at all possible.  Only as a 
 last resort should c4recover be used.
 
-### What is c4edit?
-
-c4edit is a command line program built with c4lib that translates BTS saves into human-readable
-text. The format of the text file is similar to that of a debugger's memory view. The beginning of
-a "translation" is shown below.
-
 ### Getting started
 
-Download c4recover [here](https://github.com/hankinsohl/c4/releases/tag/latest), and follow the directions in [QUICKSTART.md](QUICKSTART.md) to configure
+Download c4recover [here](https://github.com/hankinsohl/c4recover/releases/tag/latest), and follow the directions in [QUICKSTART.md](QUICKSTART.md) to configure
 c4recover for your computer.
 
 ### License
