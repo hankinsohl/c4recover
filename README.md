@@ -21,7 +21,7 @@ c4recover for your computer.
 c4recover is licensed under the MIT License.
 See [LICENSE](LICENSE).
 
-c4lib incorporates sources from copyrighted works as follows:
+c4recover incorporates sources from copyrighted works as follows:
 
 narrow.hpp:
 Copyright (c) 2015 Microsoft Corporation. All rights reserved. Licensed under the MIT License.
