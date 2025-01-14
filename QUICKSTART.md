@@ -4,7 +4,7 @@
 
 c4recover needs to be configured for your computer before it will work. To configure c4recover, open
 config.xml in a text editor. Then scroll down to the "\<config\>" block, and make changes to
-the following options:
+the following settings:
 
 ### BTS_INSTALL_DIR
 
