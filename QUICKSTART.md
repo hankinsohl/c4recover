@@ -41,7 +41,7 @@ the following command:
 c4recover <save-name>.CivBeyondSwordSave
 ```
 c4recover will remove LMA from the save and will write the modified save to 
-recovered_<save-name>.CivBeyondSwordSave.
+recovered_\<save-name\>.CivBeyondSwordSave.
 
 If you encounter an error while running c4recover similar to this
 ```
