@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Instructions:
+    This file is used to configure c4recover.
+
+    Settings are as follows:
+        Name                        Value               Meaning
+        BTS_INSTALL_DIR             <directory>         Name of root BTS install directory.  Required to load a BTS save.
+        CUSTOM_ASSETS_DIR           <directory>         Name of BTS custom assets directory.  Required to load a BTS save.
+        MOD_NAME                    <name>              If the BTS save is for a mod, the mod name.  Do not use unless the BTS save is for a mod.
+        USE_MODULAR_LOADING         [0|1]               Set to 1 if modular loading is used.  Do not use unless the save uses modular loading.
+
+    To load a save, the following settings are required: BTS_INSTALL_DIR and CUSTOM_ASSETS_DIR.  MOD_NAME and USE_MODULAR_LOADING may also
+    be used, but are not required, and should not be specified in most cases.  The values for BTS_INSTALL_DIR and CUSTOM_ASSETS_DIR can be
+    set as follows:
+
+    BTS_INSTALL_DIR
+    Set this option to the value where you installed BTS.  Some example values are as follows:
+
+        If you installed BTS from CD: "C:\Program Files (x86)\Firaxis Games\Sid Meier's Civilization IV\Beyond the Sword"
+        If you installed BTS from Good Old Games (GOG): "C:\Program Files (x86)\GOG Galaxy\Games\Civilization IV Complete\Civ4\Beyond the Sword"
+        If you installed BTS from Steam: "C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword\Beyond the Sword"
+
+    In the config section below, the value for Steam is used.  Change this value as described above, if needed.
+
+    CUSTOM_ASSETS_DIR
+    Set the value of this option to the directory BTS uses to store custom assets.  In the config section below, replace "*your-username*" with
+    your Windows username.
+-->
+<config>
+    <setting name="BTS_INSTALL_DIR"
+             value="C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization IV Beyond the Sword\Beyond the Sword"/>
+    <setting name="CUSTOM_ASSETS_DIR" value="C:\Users\*your-username*\Documents\My Games\beyond the sword\CustomAssets"/>
+</config>
